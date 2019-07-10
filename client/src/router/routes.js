@@ -49,6 +49,15 @@ const frameIn = [
         },
         component: _import('demo/page3')
       },
+      {
+        path: 'xuexg/page1',
+        name: 'xuexgPage1',
+        meta: {
+          title: '页面 4',
+          auth: true
+        },
+        component: _import('xuexg/page1')
+      },
       // 系统 前端日志
       {
         path: 'log',

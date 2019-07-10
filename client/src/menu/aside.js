@@ -9,5 +9,12 @@ export default [
       { path: '/page2', title: '页面 2' },
       { path: '/page3', title: '页面 3' }
     ]
+  },
+  {
+    title: '薛晓桂',
+    icon: 'folder-o',
+    children: [
+      { path: '/xuexg/page1', title: '页面 xuexg' }
+    ]
   }
 ]
