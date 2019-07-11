@@ -58,6 +58,15 @@ const frameIn = [
         },
         component: _import('xuexg/page1')
       },
+      {
+        path: 'hly',
+        name: 'hlyPage1',
+        meta: {
+          title: '页面 5',
+          auth: true
+        },
+        component: _import('hly/page1')
+      },
       // 系统 前端日志
       {
         path: 'log',

@@ -16,5 +16,12 @@ export default [
     children: [
       { path: '/xuexg/page1', title: '页面 xuexg' }
     ]
+  },
+  {
+    title:'黄立央',
+    icon: 'folder-o',
+    children: [
+      { path: 'hly', title: '央央的页面' }
+    ]
   }
 ]
